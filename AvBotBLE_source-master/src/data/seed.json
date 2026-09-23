@@ -1,0 +1,31 @@
+{
+  "boards": [
+    {
+      "id": "board-1",
+      "name": "Main Board",
+      "online": true,
+      "voltage": 230.0,
+      "power": 0,
+      "energy": 0,
+      "basePower": 2.5,
+      "lastUpdate": 0
+    },
+    {
+      "id": "board-2",
+      "name": "Kitchen Board",
+      "online": true,
+      "voltage": 229.4,
+      "power": 0,
+      "energy": 0,
+      "basePower": 0,
+      "lastUpdate": 0
+    }
+  ],
+  "devices": [
+    {"id": "dev-1", "name": "Living Room Light", "type": "switch", "boardId": "board-1", "switchId": 1, "state": false, "power": 12, "location": "Living Room", "lastUpdated": 0},
+    {"id": "dev-2", "name": "Bedroom Fan", "type": "fan", "boardId": "board-1", "switchId": 2, "state": false, "speed": 0, "power": 65, "location": "Bedroom", "lastUpdated": 0},
+    {"id": "dev-3", "name": "Air Conditioner", "type": "ac", "boardId": "board-1", "switchId": 3, "state": false, "temperature": 24, "power": 1450, "location": "Bedroom", "lastUpdated": 0},
+    {"id": "dev-4", "name": "Curtains", "type": "curtain", "boardId": "board-1", "switchId": 4, "state": false, "curtainState": "CLOSED", "power": 25, "location": "Living Room", "lastUpdated": 0},
+    {"id": "dev-5", "name": "Kitchen Light", "type": "switch", "boardId": "board-2", "switchId": 1, "state": false, "power": 9, "location": "Kitchen", "lastUpdated": 0}
+  ]
+}
